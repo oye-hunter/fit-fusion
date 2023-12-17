@@ -1,0 +1,58 @@
+
+img {
+    width: 30px;
+    padding-bottom: 5px;
+}
+.login {
+    margin-left: 500px;
+    margin-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signin {
+    margin-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 57px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(51, 49, 56);
+    color: rgb(255, 255, 250);
+    font-size: large;
+}
+.link {
+    margin-left: 150px;
+}
+ul {
+    list-style: none;
+    display: flex; 
+}
+li {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    flex-direction: column;
+    font-size: large;
+    margin-top: 14px;
+    margin-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 250);
+}
+div {
+    background-color: rgb(51, 49, 56);
+    padding: 1px;
+    box-shadow: 5px 5px 30px rgb(51, 49, 56, 0.3);
+}
+a:hover, button:hover {
+    text-underline-offset: 0.4em;
+    text-decoration: underline 0.17em  rgb(255, 49, 46);
+    transition: --offset 500ms, text-decoration-color 500ms;
+}
+a:active {
+    background-color: maroon;
+}

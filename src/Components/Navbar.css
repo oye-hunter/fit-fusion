@@ -1,0 +1,145 @@
+.upper-sales-header {
+    background: #222222;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    line-height: 18.8px;
+    letter-spacing: 0.6px;
+    padding: 6px;
+}
+
+.container-header {
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(255, 255, 240);
+    z-index: 999;
+}
+
+.logo-and-link-header {
+    display: flex;
+    height: 14vh;
+    align-items: center;
+    padding: 0 5rem 0 5rem;
+}
+
+
+
+.clickable-links-header {
+    margin: 0 3em 0 3em;
+    padding: 0 2em 0 2em;
+    width: 75em;
+    display: flex;
+    justify-content: center;
+}
+
+.clickable-link-element-header {
+    margin: 0 2em 0 2em;
+    color: black;
+    text-decoration: none;
+    transition: 0.18s ease-in-out;
+}
+
+.clickable-link-element-header:hover {
+    font-weight: 500;
+    text-underline-offset: 0.4em;
+    text-decoration: underline 0.17em  rgb(255, 49, 46);
+    transition: --offset 600ms, text-decoration-color 100ms;
+}
+.clickable-link-element-header-active {
+    margin: 0 2em 0 2em;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: 0.18s ease-in-out;
+}
+
+img {
+    width: 60px;
+}
+
+
+.user-clickable-button-header {
+    cursor: pointer;
+    margin: 0 0.8em 0 0.8em;
+    font-size: 800;
+    font-weight: 300;
+}
+
+.login-button-header button {
+    margin-left: 15px;
+    width: 7vw;
+    height: 6vh;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(51, 46, 56);
+    cursor: pointer;
+    transition: 0.18s ease-in-out;
+}
+
+.bn54 {
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 45px;
+    width: 130px;
+    opacity: 1;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .bn54 .bn54span {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+  }
+  
+  .bn54:hover {
+    animation: bn54rotate 0.7s ease-in-out both;
+  }
+  
+  .bn54:hover .bn54span {
+    animation: bn54storm 0.7s ease-in-out both;
+    animation-delay: 0.08s;
+  }
+  
+  @keyframes bn54rotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes bn54storm {
+    0% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+    25% {
+      transform: translate3d(4px, 0, 0) translateZ(0);
+    }
+    50% {
+      transform: translate3d(-3px, 0, 0) translateZ(0);
+    }
+    75% {
+      transform: translate3d(2px, 0, 0) translateZ(0);
+    }
+    100% {
+      transform: translate3d(0, 0, 0) translateZ(0);
+    }
+  }
