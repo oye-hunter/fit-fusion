@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "./Workouts.css"
+import ExerciseCard from "../ExerciseCard/ExerciseCard";
 
 const options = {
   method: 'GET',
@@ -34,15 +35,10 @@ const Workouts = () => {
 
  return (
     <div>
-      <h2>Workout Page</h2>
       {exerciseData.length > 0 ? (
         <div>
-            {exerciseData.map((exercise) => (<div className="container">
-              <div className="card shadow">
-            <h2 key={exercise.id}>{exercise.bodyPart}</h2>
-            <img src={exercise.gifUrl} alt="" />
-            </div>
-            </div>
+            {exerciseData.map((exercise) => (
+                <ExerciseCard name={exercise.name.toUpperCase()} bodyPart={exercise.bodyPart} target={exercise.target} gifUrl={exercise.gifUrl}/>
           ))}
         </div>
       ) : (
