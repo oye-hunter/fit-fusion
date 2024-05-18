@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 import Navbar from './Components/Navbar/Navbar';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Workouts from './Components/Workouts/Workouts';
@@ -30,6 +31,19 @@ function App() {
 
   return (
     <div className="App" style={backgroundStyle}>
+=======
+import Navbar from './Components/Navbar'
+import { Routes ,Route } from 'react-router-dom';
+import Workouts from './Components/Workouts';
+import Home from './Components/Home';
+import DietPlans from './Components/DietPlans';
+import AboutUs from './Components/AboutUs';
+import Login from './Components/Log In/Login';
+
+function App() {
+  return (
+    <div className="App">
+>>>>>>> origin/main
       <Navbar/>
       <Routes>
           <Route exact path='/' element={<Home/>}/>

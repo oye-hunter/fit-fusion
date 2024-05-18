@@ -6,6 +6,7 @@
     justify-content: center;
 }
 .container-box {
+<<<<<<< HEAD
     height: 50vh;
     padding: 20px;
     width: 20vw;
@@ -15,4 +16,12 @@
     box-shadow: 1px 1px 8px rgb(44, 44, 44);
     text-align: center;
     background-color: rgb(255, 255, 240);
+=======
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(255, 255, 240));
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+>>>>>>> origin/main
 }

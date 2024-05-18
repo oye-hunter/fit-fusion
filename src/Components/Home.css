@@ -1,0 +1,31 @@
+.center {
+    margin: auto;
+    width: 80%;
+}
+p {
+    font-size: 70px;
+    color: rgb(255, 255, 240);
+    text-shadow: 3px 3px 10px black;
+    margin-bottom: 20px;
+}
+.bn3 {
+    font-size: 15px;
+    display: inline-block;
+    padding: 0.5em 1.7em;
+    margin: 0 0.1em 0.1em 0;
+    border: 0.16em solid rgb(255, 255, 240);
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 240, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn3:hover {
+    color: black;
+    background-color: rgb(255, 255, 240);
+  }
