@@ -1,3 +1,9 @@
+.card-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87vh;
+}
 .card {
     width: fit-content;
     height: fit-content;

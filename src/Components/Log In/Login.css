@@ -6,11 +6,13 @@
     justify-content: center;
 }
 .container-box {
-    backdrop-filter: blur(8px);
-    height: 200px;
+    height: 50vh;
     padding: 20px;
+    width: 20vw;
     border-radius: 10px;
     margin: 10px;
+    color: rgb(44, 44, 44);
     box-shadow: 1px 1px 8px rgb(44, 44, 44);
     text-align: center;
+    background-color: rgb(255, 255, 240);
 }
